@@ -1,2 +1,4 @@
 # TED_dataset
-this is the repo for TED dataset
+The dataset will be coming out soon.
+
+The paper is under review.
