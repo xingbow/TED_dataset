@@ -4,7 +4,7 @@ This is the TED Talk dataset for VoiceCoach, CHI 2020, https://arxiv.org/abs/200
 
 # TED_dataset
 
-The datasets contain meta information of 2623 TED Talks in official [TED.com](https://www.ted.com/) website until Jun 7th, 2019. 
+The datasets contain meta information of 2623 TED Talks in official [TED.com](https://www.ted.com/talks) website until Jun 7th, 2019. 
 
 The meta information includes fields: _'author', 'datefilmed', 'totalviews', 'comments', 'language', 'downloadlink', 'vidlen', 'aws-transcripts', 'datecrawled', 'datepublished', 'title', 'id', 'url', 'keywords', 'videoname', 'ratings'_, and complete information is stored in the field _'alldata_JSON'_.
 
@@ -16,6 +16,13 @@ The meta information includes fields: _'author', 'datefilmed', 'totalviews', 'co
     - "start_time": "12.94", 
     - "end_time": "13.25", 
     - "alternatives": [{"confidence": "0.9097", "content": "we"}], "type": "pronunciation"}]
+
+## Video Downloading
+`tedvideo_download.py` contains the code for downloading ted videos from [TED.com](https://www.ted.com/talks)
+
+## Video2mp3/wav
+You can use [ffmpeg](https://ffmpeg.org/) to convert `.mp4` to other audio formats (e.g., mp3, wav, etc.)
+
 
 (**updating**)
 
